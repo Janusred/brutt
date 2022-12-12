@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "angular-crud-localstorage": {
-      "root": "",
+      "root": "/",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
