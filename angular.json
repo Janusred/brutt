@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "https://janusred.github.io/brutt/",
+            "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -95,6 +95,9 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     },
@@ -126,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "angular-crud-localstorage"
+  "defaultProject": "angular-crud-localstorage",
+  "cli": {
+    "analytics": "2f3308e9-5a49-48a3-b125-36a53ce71f76"
+  }
 }
